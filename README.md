@@ -125,3 +125,5 @@ Conectamos la capa Gold con **Databricks Genie** para permitir que cualquier mie
 *Demostración de la capacidad de Genie para estructurar datos. La IA extrae directamente del clúster de Big Data el listado específico solicitado y lo presenta en formato de tabla limpia para el auditor.*
 
 *Evidencia del espacio de Genie configurado sobre las tablas de la capa Gold para realizar consultas interactivas.*
+![Genie - configuracion](assets/config1.png)
+![Genie - configuracion2](assets/config2.png)
