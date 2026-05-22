@@ -103,10 +103,10 @@ Para facilitar la toma de decisiones sin necesidad de escribir código técnico,
 
 ### 1. Orquestación del Pipeline (Databricks Job)
 *(Coloca aquí tu captura de pantalla)*
-`![Scheduled Job](assets/captura_job.png)`
+![Scheduled Job](assets/captura_job.png)`
 *Evidencia de la programación cíclica del pipeline para ejecutarse automáticamente cada 8 días.*
 
 ### 2. Interfaz de Lenguaje Natural (Databricks Genie)
 *(Coloca aquí tu captura de pantalla)*
-`![Genie Dashboard](assets/captura_genie.png)`
+![Genie Dashboard](assets/captura_genie.png)`
 *Evidencia del espacio de Genie configurado sobre las tablas de la capa Gold para realizar consultas interactivas.*
