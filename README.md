@@ -31,10 +31,6 @@ El procesamiento de datos se diseñó bajo el patrón de arquitectura **Medallio
    Extractos de Apps)       Inmutables)          Identidades)         & KPIs de Control)
 
 ```
-## 🏗️ Arquitectura de Datos y Desarrollo del Pipeline
-
-El procesamiento de los datos en este proyecto se diseñó utilizando el modelo **Medallion**, el cual organiza la información en tres capas consecutivas (Bronze, Silver y Gold). Esto permite pasar de datos crudos y desordenados a un reporte final limpio y listo para auditoría.
-
 ---
 
 ### 🥉 1. Capa Bronze (Ingesta y Persistencia)
