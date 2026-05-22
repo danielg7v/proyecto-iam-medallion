@@ -107,6 +107,21 @@ Para facilitar la toma de decisiones sin necesidad de escribir código técnico,
 
 
 ### 2. Interfaz de Lenguaje Natural (Databricks Genie)
+Este panel estático permite a los directores ver la "foto global" de la seguridad en la compañía de un solo vistazo, mostrando métricas clave sobre el cumplimiento general de accesos.
 ![Scheduled Job](assets/Dashboard.png)
+
+Dashboard Conversacional Inteligente (Genie Space)
+Conectamos la capa Gold con **Databricks Genie** para permitir que cualquier miembro del equipo de seguridad consulte la base de datos en tiempo real usando lenguaje común, eliminando la necesidad de saber escribir código SQL.
+**Prueba de Auditoría 1: Análisis Comparativo Automatizado**
+*Pregunta realizada:* ¿Cuántos accesos evaluados están en estado modelado correcto vs anomalía por cada aplicación?
+ 
+![Genie - Comparativa de Accesos](assets/genie_pregunta_1.png)
+*Captura de Genie Space interpretando la pregunta y generando de forma automática un gráfico de barras que separa los accesos correctos de los riesgos de seguridad detectados en Jira y Appgate.*
+
+**Prueba de Auditoría 2: Extracción Temática de Datos**
+*Pregunta realizada:* Genera listado de usuarios en aplicativo appgate en tabla.
+ 
+![Genie - Tabla de Usuarios Appgate](assets/genie_pregunta_2.png)
+*Demostración de la capacidad de Genie para estructurar datos. La IA extrae directamente del clúster de Big Data el listado específico solicitado y lo presenta en formato de tabla limpia para el auditor.*
 
 *Evidencia del espacio de Genie configurado sobre las tablas de la capa Gold para realizar consultas interactivas.*
