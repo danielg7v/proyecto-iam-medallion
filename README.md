@@ -105,6 +105,8 @@ Para facilitar la toma de decisiones sin necesidad de escribir código técnico,
 ![Scheduled Job](assets/captura_job.png)`
 *Evidencia de la programación cíclica del pipeline para ejecutarse automáticamente cada 8 días.*
 
+![Scheduled Job](assets/Dashboard.png)`
 ### 2. Interfaz de Lenguaje Natural (Databricks Genie)
 ![Genie Dashboard](assets/captura_genie.png)`
+
 *Evidencia del espacio de Genie configurado sobre las tablas de la capa Gold para realizar consultas interactivas.*
