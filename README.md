@@ -37,7 +37,7 @@ El procesamiento de datos se diseñó bajo el patrón de arquitectura **Medallio
 
 En esta fase se realiza la carga inicial de las fuentes de datos en bruto. Para asegurar un entorno realista y seguro, se generaron datos sintéticos robustos, libres de tildes o caracteres especiales, y con usuarios de red únicos para evitar errores de cruce.
 
-#### 📊 Fuentes de Datos Guardadas en Bronze:
+#### Fuentes de Datos Guardadas en Bronze:
 
 | Nombre de la Tabla | Tipo de Fuente | Propósito en la Auditoría |
 | :--- | :--- | :--- |
@@ -48,7 +48,7 @@ En esta fase se realiza la carga inicial de las fuentes de datos en bruto. Para 
 | `gda_appgate_usuarios_grupos` | Extracto de Aplicación | Reporte real de accesos en Appgate, detallando los permisos activos por cada usuario. |
 | `jira_usuarios_permisos` | Extracto de Aplicación | Reporte real de accesos en Jira. Usa el correo electrónico como identificador principal. |
 
-> 💡 *Nota de diseño:* En los extractos de Jira y Appgate se inyectó a propósito un 10% de errores de acceso aleatorios para poner a prueba la efectividad de nuestro motor de auditoría.
+> *Nota de diseño:* En los extractos de Jira y Appgate se inyectó a propósito un 10% de errores de acceso aleatorios para poner a prueba la efectividad de nuestro motor de auditoría.
 
 ---
 
@@ -89,7 +89,7 @@ Para garantizar que este control de seguridad sea constante y no dependa de ejec
 
 ---
 
-### 📊 Visualización e Inteligencia Artificial (Databricks Genie)
+### Visualización e Inteligencia Artificial (Databricks Genie)
 
 Para facilitar la toma de decisiones sin necesidad de escribir código técnico, la tabla final de la capa Gold se conectó a **Databricks Genie**. Esta herramienta de IA permite a los oficiales de seguridad y jefes de área realizar auditorías en tiempo real usando **lenguaje natural**, respondiendo preguntas como:
 
