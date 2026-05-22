@@ -6,7 +6,7 @@ Pipeline de auditoría de identidades y accesos (IAM) utilizando Arquitectura Me
 ## Información del Proyecto
 * **Institución:** UNAULA
 * **Materia:** Big Data
-* **Docente:** Yeis
+* **Docente:** Yeis Taborda
 * **Integrantes:**
   * Daniel Gonzalez
   * Jose Santiago Valencia
